@@ -17,6 +17,17 @@ Follow any one of the external guides for full node setup:
 * [Full Node Setup](https://docs.story.foundation/network/participate/validators/node-setup-mainnet)
 
 ---
+## Genesis
+* [genesis.json](https://story-mainnet.cosmicvalidator.com/story/mainnet/genesis.json)
+```bash
+curl -Ls https://story-mainnet.cosmicvalidator.com/story/mainnet/genesis.json > $HOME/.story/story/genesis.json
+```
+      
+## Addrbook 
+* [addrbook.json](https://story-mainnet.cosmicvalidator.com/story/mainnet/addrbook.json)
+```bash
+curl -Ls https://story-mainnet.cosmicvalidator.com/story/mainnet/addrbook.json > $HOME/.story/story/addrbook.json
+```
 
 ## Snapshot Service
 
